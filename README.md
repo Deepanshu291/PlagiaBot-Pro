@@ -1,22 +1,35 @@
-# 🕸️ Webscrap Plagiarism Checker 🚀
+# PlagiaBot Pro 🤖
 
-A modern Python automation tool that splits your text into chunks, submits them to Plagiarisma.net using Selenium, and downloads plagiarism reports as PDFs. Perfect for batch-checking large documents! 📄🔍
+A modern Python automation tool for checking plagiarism on [Plagiarisma.net](https://plagiarisma.net) using Selenium. PlagiaBot Pro splits your text into chunks, submits them to Plagiarisma.net, and downloads plagiarism reports as PDFs. Perfect for batch-checking large documents, academic papers, essays, and research articles! 📄🔍
+
+---
+
+## Why PlagiaBot Pro?
+
+- **Automate Plagiarisma.net**: No more manual copy-paste! PlagiaBot Pro automates the entire process of submitting text to Plagiarisma.net and downloading reports.
+- **Bulk Plagiarism Checking**: Easily check large files, books, or multiple documents for plagiarism using Plagiarisma.net.
+- **Save Time**: Download all your Plagiarisma.net PDF reports in one go.
+- **Perfect for Students, Researchers, and Writers**: Ensure your work is original and properly cited.
+
+---
 
 ## Features
 
-- 📑 Splits large text files into manageable chunks
+- 📑 Splits large text files into manageable chunks for Plagiarisma.net
 - 🤖 Automates registration and login on Plagiarisma.net
-- 🖱️ Submits each chunk for plagiarism checking
-- 📥 Downloads PDF reports automatically
-- 🔄 Rotates users after every 4 chunks to avoid limits
+- 🖱️ Submits each chunk for plagiarism checking on Plagiarisma.net
+- 📥 Downloads PDF reports automatically from Plagiarisma.net
+- 🔄 Rotates users after every 4 chunks to avoid Plagiarisma.net limits
+
+---
 
 ## Installation
 
 1. **Clone the repository**
 
    ```sh
-   git clone <your-repo-url>
-   cd Webscrap
+   git clone https://github.com/Deepanshu291/PlagiaBot-Pro.git
+   cd PlagiaBot-Pro
    ```
 
 2. **Install Python dependencies**
@@ -31,11 +44,14 @@ A modern Python automation tool that splits your text into chunks, submits them 
    - Place `chromedriver.exe` in the `drivers/` folder
 
    > ⚠️ **If the program is not working:**
+   >
    > - Your Chrome browser may have updated.
    > - Download the latest ChromeDriver version matching your browser and replace the old `chromedriver.exe` in the `drivers/` folder.
 
 4. **Prepare your text file**
    - Place your text in `project.txt` or update the path in `app.py`
+
+---
 
 ## Usage
 
@@ -44,6 +60,9 @@ python app.py
 ```
 
 - Reports will be saved in the `Data/` directory (or as configured).
+- Each chunk is checked for plagiarism using Plagiarisma.net and a PDF report is downloaded.
+
+---
 
 ## Requirements
 
@@ -51,10 +70,12 @@ python app.py
 - Google Chrome browser
 - Selenium
 
+---
+
 ## Folder Structure
 
 ```
-Webscrap/
+PlagiaBot-Pro/
 ├── app.py
 ├── project.txt
 ├── drivers/
@@ -64,11 +85,34 @@ Webscrap/
 ...
 ```
 
-## ⚠️ Disclaimer
+---
 
-- This tool is for educational and research purposes only.
-- Respect the terms of service of Plagiarisma.net.
+## Frequently Asked Questions (FAQ)
+
+### 1. What is PlagiaBot Pro?
+
+PlagiaBot Pro is an open-source Python tool that automates plagiarism checking on [Plagiarisma.net](https://plagiarisma.net) using Selenium. It is designed for bulk and automated plagiarism detection.
+
+### 2. Is PlagiaBot Pro free?
+
+Yes, PlagiaBot Pro is free and open-source. Plagiarisma.net may have its own usage limits or terms.
+
+### 3. Can I use PlagiaBot Pro for academic research?
+
+Absolutely! PlagiaBot Pro is perfect for students, researchers, and writers who need to check large documents for plagiarism using Plagiarisma.net.
+
+### 4. Why do I need to update ChromeDriver?
+
+PlagiaBot Pro uses Selenium and ChromeDriver to automate your browser. If your Chrome browser updates, you may need to update ChromeDriver to match.
 
 ---
 
-Made with ❤️ using Python & Selenium.
+## ⚠️ Disclaimer
+
+- This tool is for educational and research purposes only.
+- Respect the terms of service of [Plagiarisma.net](https://plagiarisma.net).
+- PlagiaBot Pro is not affiliated with Plagiarisma.net.
+
+---
+
+Made with ❤️ using Python, Selenium, and Plagiarisma.net.
