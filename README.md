@@ -30,6 +30,10 @@ A modern Python automation tool that splits your text into chunks, submits them 
    - Download the version matching your Chrome browser from [here](https://chromedriver.chromium.org/downloads)
    - Place `chromedriver.exe` in the `drivers/` folder
 
+   > ⚠️ **If the program is not working:**
+   > - Your Chrome browser may have updated.
+   > - Download the latest ChromeDriver version matching your browser and replace the old `chromedriver.exe` in the `drivers/` folder.
+
 4. **Prepare your text file**
    - Place your text in `project.txt` or update the path in `app.py`
 
