@@ -34,9 +34,14 @@ A modern Python automation tool for checking plagiarism on [Plagiarisma.net](htt
 
 2. **Install Python dependencies**
 
-   ```sh
-   pip install selenium
-   ```
+   - You can use the provided batch file for quick setup:
+     ```sh
+     install.bat
+     ```
+   - Or install manually:
+     ```sh
+     pip install selenium
+     ```
 
 3. **Download ChromeDriver**
 
@@ -55,9 +60,14 @@ A modern Python automation tool for checking plagiarism on [Plagiarisma.net](htt
 
 ## Usage
 
-```sh
-python app.py
-```
+- You can run the program using the batch file:
+  ```sh
+  run.bat
+  ```
+- Or run directly with Python:
+  ```sh
+  python app.py
+  ```
 
 - Reports will be saved in the `Data/` directory (or as configured).
 - Each chunk is checked for plagiarism using Plagiarisma.net and a PDF report is downloaded.
